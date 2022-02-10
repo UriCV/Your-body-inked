@@ -2,3 +2,85 @@
     border: 2px solid red;
     height: 50px;
 }
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:100vh;
+    background-image: url(./imgs/background.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+
+.content{
+    justify-content: center;
+}
+
+.content h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(173, 26, 26);
+    font-size: 180px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 5px black;
+
+}
+
+.content h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    -webkit-text-stroke: 5px black;
+    font-size: 180px;
+    display: flex;
+    justify-content: center;
+        
+    
+}
+
+.parrafo p{
+    font-size: 60px;
+    color: black;
+    height: 100vh;
+}
+
+.section img{
+    width: 500px;
+    border: 2px; color: black;
+}
+.rosa img{
+    width: 150px;
+}
+.title{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.back{
+    background-color: #201D1D;
+}
+.social img{
+    width: 45PX;
+}
+.contacto{
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-items: row;
+    justify-content: flex-end;
+}
+.imagen2{
+    width: 10px;
+    height: 10px;
+}
+
+header {
+    width: 1000px;
+    height: 1000px;
+}
